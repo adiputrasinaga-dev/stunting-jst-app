@@ -1,4 +1,15 @@
+# Mengabaikan folder Virtual Environment (Sangat Penting!)
 env/
-__pycache__/
+venv/
+.env
+
+# Mengabaikan file data berat agar GitHub tidak error
+data/raw/
+data/processed/
 *.csv
+*.npz
+
+# Mengabaikan file log dan cache bawaan sistem Python
+__pycache__/
+*.log
 .DS_Store
