@@ -1,0 +1,7 @@
+2026-07-04 15:37:46,806 - INFO - MEMULAI PIPELINE TRAINING MODEL...
+2026-07-04 15:37:54,993 - INFO - Berhasil menarik 3850 baris data dari database.
+2026-07-04 15:37:55,003 - INFO - Split selesai. Train size: 3080, Test size: 770
+2026-07-04 15:37:55,006 - INFO - MinMaxScaler berhasil disimpan.
+2026-07-04 15:37:55,047 - INFO - SMOTETomek Selesai. Sebelum: [2999   81] -> Sesudah: [2999 2999]
+2026-07-04 15:37:55,195 - WARNING - TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-07-04 15:42:38,497 - INFO - Model berhasil dilatih dan disimpan di models/export/champion_model_jst.keras

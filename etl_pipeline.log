@@ -1,0 +1,28 @@
+2026-07-03 17:46:07,692 - INFO - MEMULAI PROSES EKSTRAKSI: Mencari file CSV di data\raw
+2026-07-03 17:46:07,693 - INFO - Ditemukan 4 file CSV. Memulai penggabungan...
+2026-07-03 17:46:07,693 - INFO - -> Membaca file: Data Antropometri Balita UPT Puskesmas Kampung Baru Tahun 2020.csv
+2026-07-03 17:46:07,704 - INFO - -> Membaca file: Data Antropometri Balita UPT Puskesmas Kampung Baru Tahun 2021.csv
+2026-07-03 17:46:07,714 - INFO - -> Membaca file: Data Antropometri Balita UPT Puskesmas Kampung Baru Tahun 2022.csv
+2026-07-03 17:46:07,739 - INFO - -> Membaca file: Data Antropometri Balita UPT Puskesmas Kampung Baru Tahun 2023.csv
+2026-07-03 17:46:07,765 - INFO - Penggabungan selesai. Total baris data: 3982
+2026-07-03 17:46:07,765 - INFO - Kolom yang tersedia: No., NIK, Nama, Nama Orang Tua, Provinsi, Kabupaten/Kota, Kecamatan, Puskesmas, Desa/Kelurahan, Posyandu, RT, RW, Alamat, Jenis Kelamin, Berat Badan Lahir, Tinggi Badan Lahir, Tanggal Lahir, Tanggal Pengukuran, Usia Saat Ukur, Umur, Berat Badan, Tinggi Badan, LiLA, BB/U, ZS BB/U, TB/U, ZS TB/U, BB/TB, ZS BB/TB, Naik Berat Badan, PMT Diterima (kg), Jml Vit A, KPSP, KIA
+2026-07-03 17:46:07,870 - INFO - PROSES EKSTRAKSI SELESAI: Data berhasil disimpan ke data\processed\01_extracted_data.csv
+2026-07-03 18:01:16,650 - INFO - MEMULAI PROSES TRANSFORMASI DATA...
+2026-07-03 18:01:16,685 - INFO - Data awal dimuat: 3982 baris.
+2026-07-03 18:01:16,756 - ERROR - Terjadi kesalahan saat transformasi: name 'cite' is not defined
+2026-07-03 18:04:08,436 - INFO - MEMULAI PROSES TRANSFORMASI DATA...
+2026-07-03 18:04:08,463 - INFO - Data awal dimuat: 3982 baris.
+2026-07-03 18:04:08,516 - ERROR - Terjadi kesalahan saat transformasi: name 'cite' is not defined
+2026-07-03 18:04:27,738 - INFO - MEMULAI PROSES TRANSFORMASI DATA...
+2026-07-03 18:04:27,770 - INFO - Data awal dimuat: 3982 baris.
+2026-07-03 18:04:27,824 - ERROR - Terjadi kesalahan saat transformasi: name 'cite' is not defined
+2026-07-03 18:11:19,582 - INFO - MEMULAI PROSES TRANSFORMASI DATA...
+2026-07-03 18:11:19,622 - INFO - Data awal dimuat: 3982 baris.
+2026-07-03 18:11:19,679 - INFO - Setelah Data Cleaning & Outlier Removal: 3850 baris tersisa.
+2026-07-03 18:11:19,717 - INFO - PROSES TRANSFORMASI SELESAI: Data siap-database disimpan ke data\processed\02_transformed_data.csv
+
+2026-07-04 13:48:17,052 - INFO - MEMULAI PROSES LOAD DATA KE CLOUD DATABASE...
+2026-07-04 13:48:17,107 - INFO - Data siap-load berhasil dimuat: 3850 baris.
+2026-07-04 13:48:17,366 - INFO - Menghubungkan ke Neon.tech dan memasukkan data ke tabel 'riwayat_pengukuran_balita'...
+2026-07-04 13:48:24,929 - INFO - PROSES LOAD SELESAI: Data sukses bermigrasi ke Cloud Database!
+
